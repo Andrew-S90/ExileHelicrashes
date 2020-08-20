@@ -69,7 +69,7 @@ class CfgHeliCrash
 		{
 			"Land_Wreck_Heli_Attack_01_F",
 			"Land_Wreck_Heli_Attack_02_F",
-			"BlackhawkWreck",
+			"BlackhawkWreck"
 		};
 	};
 	
