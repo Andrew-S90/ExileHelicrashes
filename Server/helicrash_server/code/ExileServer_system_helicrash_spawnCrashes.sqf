@@ -22,7 +22,7 @@ try
 	
 	if(count _center < 1) then
 	{
-		_center = [[worldSize/2,worldSize/2,0],5000];
+		_center = [[worldSize/2,worldSize/2,0],10000];
 	};
 	
 	_blacklistPos = [];
@@ -30,7 +30,7 @@ try
 	{
 		_classname = selectRandom _classnames;
 		_spawnPos = [];
-		_spawnPos = [(_center select 0), 0, (_center select 1), 40, 0, 0.25, 0, _blacklistPos,[0,0]] call BIS_fnc_findSafePos;
+		_spawnPos = [(_center select 0), 0, (_center select 1), 20, 0, 0.25, 0, _blacklistPos,[0,0]] call BIS_fnc_findSafePos;
 		_spawnPos pushBack 0;
 		_blacklistPos pushBack [_spawnPos,500];
 		_heliCrash = createSimpleObject [_classname, ATLToASL _spawnPos];

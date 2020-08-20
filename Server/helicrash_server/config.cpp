@@ -11,8 +11,6 @@ class CfgPatches
 		requiredVersion=0.1;
 		requiredAddons[]=
 		{
-			"exile_client",
-			"exile_assets",
 			"exile_server"
 		};
 		units[]={};
@@ -30,9 +28,11 @@ class CfgFunctions
 			file="helicrash_server\bootstrap";
 			class preInit
 			{
+				preInit = 1;
 			};
 			class postInit
 			{
+				postInit = 1;
 			};
 		};
 	};
@@ -53,23 +53,22 @@ class CfgHeliCrash
 		HeliCrashes = 3; //Number of helicrashes to spawn on the map
 		
 		ChernarusRedux[] = {{7700,8500,0}, 7000}; //Mapname center, distance
-		Altis[] = {{15360,15360,0}, 10000}; //Mapname center, distance
+		Altis[] = {{15360,15360,0}, 15000}; //Mapname center, distance
 		
 		Effects = 1; //0 to turn smoke off
 		
-		LootMin = 2; //Min piles of loot to spawn
+		LootMin = 3; //Min piles of loot to spawn
 		
-		LootMax = 5; //Max piles of loot to spawn
+		LootMax = 7; //Max piles of loot to spawn
 		
-		SecondLootChance = 25; //% Chance of spawning extra loot per pile
+		SecondLootChance = 50; //% Chance of spawning extra loot per pile
 		
 		Radius = 10; //distance (m) how far away loot can spawn from the crash site
 		
 		wrecks[]=
 		{
 			"Land_Wreck_Heli_Attack_01_F",
-			"Land_Wreck_Heli_Attack_02_F",
-			"BlackhawkWreck"
+			"Land_Wreck_Heli_Attack_02_F"
 		};
 	};
 	
