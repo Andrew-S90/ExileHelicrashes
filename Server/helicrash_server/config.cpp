@@ -43,7 +43,7 @@ class CfgHeliCrash
 	class Logging
 	{
 		//If this is one it will log the location and loot spawned
-		itemLogging = 1;
+		itemLogging = 0;
 		
 		markers = 0;
 	};

@@ -1,7 +1,9 @@
-/*
- * Helicrash Server ExileServer_system_helicrash_spawnLoot
+ /*
  *
- * Made by Andrew_S90
+ * Author: Andrew_S90
+ *
+ * This work is protected by Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0). 
+ *
  */
  
 private ["_heliPosition", "_heliCrashLoot", "_lootMin", "_lootMax", "_secondLootChance", "_lootRadius", "_logging", "_markers", "_boxType", "_items", "_blacklistPos", "_lootNum", "_lootSpawn", "_lootPosition", "_lootHolder", "_classname", "_cargoType", "_magazineClassNames", "_magazineClassName", "_numberOfMagazines", "_mark"]; 
