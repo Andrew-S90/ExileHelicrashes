@@ -3,7 +3,7 @@ Random Helicrashes at server start
 
 Customizable settings, loot, amount and more
 
-Showcase video: 
+Showcase video: https://www.youtube.com/watch?v=fAIjxCJPV8E
 
 This was developed on a test server with EXTDB2, no infistar and no battleye.
 
